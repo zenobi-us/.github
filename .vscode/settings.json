@@ -1,5 +1,2 @@
 {
-    "debug.javascript.defaultRuntimeExecutable": {
-        "pwa-node": "/home/zenobius/.local/share/mise/shims/node"
-    }
 }
