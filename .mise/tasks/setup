@@ -1,0 +1,18 @@
+#!/bin/bash
+
+function log() {
+    echo "[setup] $1"
+}
+
+function make_all_tasks_executable() {
+    log "Making all tasks executable..."
+
+    find .mise/tasks -type f -exec chmod +x {} \;
+
+    log "Done."
+}
+
+
+mise install
+
+make_all_tasks_executable
